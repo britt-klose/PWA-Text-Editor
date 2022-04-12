@@ -28,3 +28,16 @@ registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
 // TODO: Implement asset caching
 registerRoute();
+
+//act 19 and 20
+// registerRoute(
+//   matchCallback,
+//   new StaleWhileRevalidate({
+//     cacheName,
+//     plugins: [
+//       new CacheableResponsePlugin({
+//         statuses: [0, 200],
+//       }),
+//     ],
+//   })
+// );
