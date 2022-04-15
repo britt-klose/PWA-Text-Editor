@@ -21,7 +21,7 @@ module.exports = () => {
       //Webpack plugin; to gen the html file & inject bundles
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Contact Cards'
+        title: 'JATE'
       }),
       //Inject Manifest to inject custom service worker
       new InjectManifest({
